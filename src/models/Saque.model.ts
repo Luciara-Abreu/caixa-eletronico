@@ -1,17 +1,15 @@
-
 import mongoose from 'mongoose';
 
 const saqueSchema = new mongoose.Schema({
   valor: {
     type: Number,
-    required: true
-  }, 
-  
-  idConta: {
-    type: String,
-    required: true
+    required: true,
+    min: 0
   },
-   
+  idConta:{
+    type: String,
+    require: true,
+  },
   createdAt: {
     type: Date,
     default: new Date(),
