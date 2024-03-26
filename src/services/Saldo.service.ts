@@ -31,7 +31,6 @@ class SaldoService {
             idConta,
             valor: saldoAtual
         }
-        await SaldoRepository.create(List)
         return List
 
     }
