@@ -49,7 +49,7 @@ class DepositoService {
     async remove(id: string){
         const deposito = await DepositoRepository.getById(id)
         if(!deposito){
-          throw new Error('Usuário não encontrado')
+          throw new Error('Depósito não encontrado')
         }else{
           return await DepositoRepository.remove(id)
         }
