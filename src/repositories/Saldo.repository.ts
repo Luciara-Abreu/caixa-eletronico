@@ -6,6 +6,10 @@ class SaldoRepository {
         return await SaldoModel.find();
     }
 
+    async create(saldo: ICaixaEletronico) {
+    return await SaldoModel.findOne(saldo)
+  }
+
    async getById(_id: string) {
         return await SaldoModel.findOne({ _id: _id })
       }
