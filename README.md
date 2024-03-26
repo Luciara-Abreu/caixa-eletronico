@@ -4,12 +4,12 @@
 Esta é uma API REST desenvolvida em Node.js com TypeScript para simular funcionalidades de um caixa eletrônico, como depositar dinheiro, sacar dinheiro e verificar o saldo da conta.
 
 # Tecnologias Utilizadas
-## Node.js: Plataforma de execução de código JavaScript do lado do servidor.
-## Express.js: Framework web para Node.js que facilita a criação de aplicativos da web e APIs.
-## TypeScript: Superset do JavaScript que adiciona tipagem estática e outros recursos ao JavaScript.
-## Docker: Plataforma de contêineres que facilita a criação, implantação e execução de aplicativos usando contêineres.
-## MongoDB: Banco de dados NoSQL usado para armazenar os dados da aplicação.
-## Mongoose: Biblioteca do Node.js que fornece uma solução baseada em esquema para modelar os dados da aplicação.
+Node.js: Plataforma de execução de código JavaScript do lado do servidor.
+Express.js: Framework web para Node.js que facilita a criação de aplicativos da web e APIs.
+TypeScript: Superset do JavaScript que adiciona tipagem estática e outros recursos ao JavaScript.
+Docker: Plataforma de contêineres que facilita a criação, implantação e execução de aplicativos usando contêineres.
+MongoDB: Banco de dados NoSQL usado para armazenar os dados da aplicação.
+Mongoose: Biblioteca do Node.js que fornece uma solução baseada em esquema para modelar os dados da aplicação.
 
 # Principais Funcionalidades
 
@@ -24,13 +24,13 @@ Permite que o usuário consulte o saldo atual de sua conta bancária.
 
 # Explorando a Estrutura do Projeto
 
-## public/: Pasta para arquivos estáticos, como JavaScript, imagens e folhas de estilo.
-## interfaces/: Define as interfaces TypeScript utilizadas no projeto.
-## models/: Contém os modelos de dados MongoDB definidos usando Mongoose.
-## repositories/: Implementa as operações de acesso aos dados no banco de dados.
-## services/: Contém a lógica de negócios da aplicação, como serviços para depositar, sacar e verificar saldo.
-## routes/: Pasta que contém os arquivos de rota. Aqui são definidas as rotas da API.
-## app.js: Arquivo principal que configura e inicia o aplicativo Express. Aqui você pode definir ## middlewares, configurar rotas e inicializar o servidor HTTP.
+public/: Pasta para arquivos estáticos, como JavaScript, imagens e folhas de estilo.
+interfaces/: Define as interfaces TypeScript utilizadas no projeto.
+models/: Contém os modelos de dados MongoDB definidos usando Mongoose.
+repositories/: Implementa as operações de acesso aos dados no banco de dados.
+services/: Contém a lógica de negócios da aplicação, como serviços para depositar, sacar e verificar saldo.
+routes/: Pasta que contém os arquivos de rota. Aqui são definidas as rotas da API.
+app.js: Arquivo principal que configura e inicia o aplicativo Express. Aqui você pode definir ## middlewares, configurar rotas e inicializar o servidor HTTP.
 
 # Executando o Projeto
 ## Para executar o projeto localmente, siga estas etapas:
